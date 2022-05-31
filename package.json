@@ -2,7 +2,7 @@
   "name": "staff-schedule",
   "version": "1.0.0",
   "description": "simple staff management system with authentication",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start:server": "nodemon src/index.js",
     "lint": "eslint --fix",
@@ -46,9 +46,5 @@
     "husky": "^4.2.5",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5"
-  },
-  "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
   }
 }
